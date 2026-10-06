@@ -284,7 +284,8 @@ section.block + section.block{border-top:1px solid var(--line)}
 .lbl .bits span{font-family:var(--f-mono);font-size:.7rem;border:1px solid var(--line);padding:2px 8px;border-radius:999px}
 @media (max-width:960px){.labels{grid-template-columns:1fr 1fr}}
 @media (max-width:520px){.labels{grid-template-columns:1fr}}
-.assort{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.assort{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.assort > .as{flex:0 0 calc((100% - 36px) / 4)}
 .as{margin:0;border:1px solid var(--line);background:var(--bg);min-height:220px;display:flex;align-items:flex-end;position:relative;overflow:hidden}
 .as figcaption{position:relative;padding:14px 16px;display:flex;flex-direction:column;gap:2px}
 .as b{font-family:var(--f-display);font-weight:400;font-size:1.15rem;color:var(--ink)}
@@ -292,7 +293,7 @@ section.block + section.block{border-top:1px solid var(--line)}
 .as-img{min-height:220px}
 .as-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#10110c}
 .as-img figcaption{width:100%;background:linear-gradient(transparent,rgba(0,0,0,.85))}
-@media (max-width:860px){.assort{grid-template-columns:1fr 1fr}}
+@media (max-width:860px){.assort > .as{flex-basis:calc((100% - 12px) / 2)}}
 .salumi{display:flex;flex-wrap:wrap;gap:8px}
 .salumi span{border:1px solid var(--line);padding:6px 14px;border-radius:999px;font-size:.93rem}
 
