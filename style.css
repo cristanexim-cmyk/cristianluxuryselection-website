@@ -284,7 +284,7 @@ section.block + section.block{border-top:1px solid var(--line)}
 .lbl .bits span{font-family:var(--f-mono);font-size:.7rem;border:1px solid var(--line);padding:2px 8px;border-radius:999px}
 @media (max-width:960px){.labels{grid-template-columns:1fr 1fr}}
 @media (max-width:520px){.labels{grid-template-columns:1fr}}
-.assort{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.assort{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .as{margin:0;border:1px solid var(--line);background:var(--bg);min-height:220px;display:flex;align-items:flex-end;position:relative;overflow:hidden}
 .as figcaption{position:relative;padding:14px 16px;display:flex;flex-direction:column;gap:2px}
 .as b{font-family:var(--f-display);font-weight:400;font-size:1.15rem;color:var(--ink)}
