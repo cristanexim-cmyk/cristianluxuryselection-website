@@ -1,5 +1,12 @@
 {
   "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/carni-italiane.html",
+      "destination": "/carni-spagnole.html",
+      "permanent": true
+    }
+  ],
   "trailingSlash": false,
   "headers": [
     {
