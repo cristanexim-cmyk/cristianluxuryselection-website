@@ -343,6 +343,9 @@ footer p{word-break:break-word}
 /* --- multipagina --- */
 .chapter h1.t{font-family:var(--f-display);font-weight:400;font-size:clamp(2.2rem,5vw,3.6rem);line-height:1;margin:0}
 nav.menu a[aria-current="page"]{color:var(--accent)}
+.ev-grid .xmas-lot img{aspect-ratio:4/3}
+@media (max-width:900px){.ev-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.ev-grid{grid-template-columns:1fr}}
 .crumbs{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-top:28px}
 .crumbs a{color:var(--muted);text-decoration:none}.crumbs a:hover{color:var(--ink)}
 .crumbs span{margin:0 8px;color:var(--line)}
