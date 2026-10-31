@@ -229,6 +229,7 @@ section.block + section.block{border-top:1px solid var(--line)}
 .xmas-gh h3{font-size:clamp(1.5rem,2.6vw,2rem)}
 .xmas-gh span{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .xmas-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.xmas-pages{display:grid;gap:18px;margin-top:28px}.xmas-page{margin:0;border:1px solid var(--line);background:#000}.xmas-page img{width:100%;height:auto;display:block}
 .xmas-lot{display:flex;flex-direction:column;border:1px solid var(--line);background:var(--surface);min-width:0}
 .xmas-lot img{width:100%;height:auto;aspect-ratio:640/300;object-fit:cover;display:block}
 .xmas-body{padding:16px 16px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
