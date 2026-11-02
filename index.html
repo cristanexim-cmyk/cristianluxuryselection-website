@@ -35,16 +35,19 @@
 <script>(function(){var h=document.querySelector('header.top'),b=h.querySelector('.menu-btn');b.addEventListener('click',function(){var o=h.classList.toggle('open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Chiudi il menu':'Apri il menu')});})();</script>
 
 <main class="wrap">
-  <section class="hero">
+  <section class="perle-hero">
     <div>
-      <i class="lockup" role="img" aria-label="CLS Cristian Luxury Selection" style="width:clamp(180px,22vw,270px)"></i>
-      <h1>La qualità non si improvvisa, <em>si seleziona.</em></h1>
-      <p class="hero-sub">Importazione e distribuzione di carne bovina spagnola, salumi <em>ibéricos</em> e vini selezionati.</p>
-      <div class="cta-row">
-        <a class="btn primary" href="contatti.html">Richiedi il listino</a>
-        <a class="btn ghost" href="carni-spagnole.html">Scopri i prodotti</a>
-      </div>
+      <img class="logo-big" src="img/logo-cls-cristian-luxury-selection-0d63.png" alt="Logo CLS Cristian Luxury Selection" width="84" height="84">
+      <p class="eyebrow">Cristian Luxury Selection</p>
+      <h1>La qualità non si improvvisa. <em>Si seleziona.</em></h1>
+      <p class="lead">Selezioniamo le carni dei pascoli di Galizia e d’Italia, il jamón ibérico della dehesa, il caviale, le alici del Cantabrico, i grandi vini e gli champagne delle piccole maison. Pochi produttori, conosciuti di persona: ogni prodotto scelto uno per uno, per chi non si accontenta.</p>
+      <div class="cta-row" style="margin-top:26px"><a class="btn primary" href="#selezioni">Scopri la selezione</a><a class="btn ghost" href="contatti.html">Richiedi il listino</a></div>
     </div>
+    <figure><img src="img/due-mani-eleganti-che-sostengono-un-filo-di-perle-su-fondo-n-10d2.webp" alt="Due mani eleganti che sostengono un filo di perle su fondo nero" width="1024" height="1536"></figure>
+  </section>
+
+  <section class="block selezioni" id="selezioni">
+    <div class="head"><p class="eyebrow">Le nostre selezioni</p><h2>Carni, salumi e grandi vini.</h2></div>
     <div class="doors">
       <a class="door" href="carni-spagnole.html">
         <img src="img/decorativa-a6fd.jpg" alt="" aria-hidden="true">
@@ -63,12 +66,6 @@
     </div>
   </section>
 
-  <div class="facts" data-v="3">
-    <div><strong>Spagna → Italia</strong><span>Importazione diretta dai produttori</span></div>
-    <div><strong>Carne e salumi</strong><span>Bovino, prosciutto e insaccati iberici</span></div>
-    <div><strong>Catena del freddo</strong><span>Prodotti tracciati dall'origine</span></div>
-    <div><strong>Listini riservati</strong><span>Per operatori con Partita IVA</span></div>
-  </div>
 
   <a class="xmas-band" href="natale.html">
     <img src="img/decorativa-16a7.jpg" alt="" aria-hidden="true">
@@ -79,15 +76,37 @@
   <section class="block" id="chi-siamo">
     <div class="two">
       <div class="head">
-        <p class="eyebrow">La nostra storia</p>
+        <p class="eyebrow">Chi siamo</p>
         <h2>Prima ancora che un’azienda, una selezione.</h2>
       </div>
       <div>
-        <p>CLS nasce dall’esperienza di Cristian, anni passati come agente e rappresentante nel mondo alimentare, al fianco di cuochi, macellai e buyer. Tra banchi, cucine e celle frigorifere ha imparato la lezione più semplice e più difficile del mestiere: chi lavora con le materie prime d’eccellenza non cerca un prodotto, cerca una certezza.</p>
+        <p>CLS – Cristian Luxury Selection nasce da una ricerca: trovare, nei luoghi d’origine, le eccellenze che meritano di arrivare sulla vostra tavola.</p>
+        <p>Dalla dehesa spagnola alle colline della Valpolicella, dalle cantine della Champagne alle acque del Cantabrico, incontriamo di persona produttori e piccole maison in varie parti del mondo. Assaggiamo, confrontiamo, scegliamo: un prodotto entra nella nostra selezione solo quando è il migliore che abbiamo trovato.</p>
         <div class="cta-row" style="margin-top:20px"><a class="btn ghost" href="azienda.html">Leggi la nostra storia</a></div>
       </div>
     </div>
   </section>
+
+  <section class="block" id="importazione">
+    <div class="head">
+      <p class="eyebrow">Importazione dalla Spagna</p>
+      <h2>Dalla Spagna all’Italia, direttamente dai produttori.</h2>
+      <p class="lead">Importiamo carni e salumi direttamente dagli allevamenti e dalle cantine di stagionatura spagnole e li distribuiamo a ristoranti, hotel, macellerie e gastronomie. Prodotti tracciati dall’origine, catena del freddo garantita e listini riservati agli operatori con Partita IVA.</p>
+    </div>
+    <div class="import-grid">
+      <a href="carni-spagnole.html"><small>Galizia</small><b>Carne bovina galiziana</b><span>Lombate di Rubia Gallega, Vaca Vieja e Buey Gallego nelle tre linee CLS Aurea, Bruta e Tauro.</span></a>
+      <a href="salumi-iberici.html"><small>Jabugo · Sierra de Aracena</small><b>Salumi ibérici</b><span>Jamón e paleta con sigillo nero, rosso, verde e bianco, chorizo, lomo e salchichón ibérici.</span></a>
+      <a href="contatti.html"><small>Mar Cantabrico</small><b>Alici del Cantabrico</b><span>Filetti di alici lavorati a mano e custoditi in olio d’oliva, per la ristorazione e la vendita.</span></a>
+    </div>
+  <div class="facts" data-v="3">
+    <div><strong>Spagna → Italia</strong><span>Importazione diretta dai produttori</span></div>
+    <div><strong>Carne e salumi</strong><span>Bovino, prosciutto e insaccati iberici</span></div>
+    <div><strong>Catena del freddo</strong><span>Prodotti tracciati dall'origine</span></div>
+    <div><strong>Listini riservati</strong><span>Per operatori con Partita IVA</span></div>
+  </div>
+    <div class="cta-row" style="margin-top:24px"><a class="btn primary" href="contatti.html">Richiedi il listino riservato</a></div>
+  </section>
+
 
   <section class="block" id="beverage-home">
     <div class="wine wine-home">
